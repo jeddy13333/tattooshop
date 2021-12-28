@@ -2,7 +2,7 @@
     
     @font-face {
         font-family: cool;
-        src: url("/SailorTattooHand-axPBo.ttf");
+        src: url('SailorTattooHand-axPBo.ttf');
     }
     
     @font-face {
@@ -12,7 +12,7 @@
     
     @font-face {
         font-family: neon2;
-        src: url("/NeonGlowBold-YxJv.ttf");
+        src: url('NeonGlowBold-YxJv.ttf');
     }
     
     @font-face {
@@ -29,7 +29,7 @@
     body {
         height: 100vh;
         width: 100vw;
-        background-image: url("tigran-hambardzumyan-ljh4yQb5EBE-unsplash.jpg");
+        background-image: url('tigran-hambardzumyan-ljh4yQb5EBE-unsplash.jpg');
         background-size: cover;
         background-position: center;
         position: relative;
