@@ -2,22 +2,22 @@
     
     @font-face {
         font-family: cool;
-        src: url("/fonts/sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf");
+        src: url("SailorTattooHand-axPBo.ttf");
     }
     
     @font-face {
         font-family: neon;
-        src: url(/fonts/neon-font/Neon-gR3p.ttf);
+        src: url(Neon-gR3p.ttf);
     }
     
     @font-face {
         font-family: neon2;
-        src: url("/fonts/neon-glow-font/NeonGlowBold-YxJv.ttf");
+        src: url("NeonGlowBold-YxJv.ttf");
     }
     
     @font-face {
         font-family: con;
-        src: url("/fonts/ConformityPersonalUseRegular-1GMDg.ttf");
+        src: url("ConformityPersonalUseRegular-1GMDg.ttf");
     }
     
     * {
