@@ -2,7 +2,7 @@
     
     @font-face {
         font-family: cool;
-        src: url('SailorTattooHand-axPBo.ttf');
+        src: url(SailorTattooHand-axPBo.ttf);
     }
     
     @font-face {
@@ -161,7 +161,12 @@
         }
     }
     
-    @media (min-width:730px) {}
+    @media (min-width:730px) {
+            body {
+                height:100vh;
+                width:100vw;
+        }
+}
     
     @media (min-width: 930px) {
         body {
