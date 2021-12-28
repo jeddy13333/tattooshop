@@ -1,0 +1,267 @@
+    /* Utilities */
+    
+    @font-face {
+        font-family: cool;
+        src: url("/fonts/sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf");
+    }
+    
+    @font-face {
+        font-family: neon;
+        src: url(/fonts/neon-font/Neon-gR3p.ttf);
+    }
+    
+    @font-face {
+        font-family: neon2;
+        src: url("/fonts/neon-glow-font/NeonGlowBold-YxJv.ttf");
+    }
+    
+    @font-face {
+        font-family: con;
+        src: url("/fonts/ConformityPersonalUseRegular-1GMDg.ttf");
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("tigran-hambardzumyan-ljh4yQb5EBE-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .navbar {
+        background-position: right;
+        font-size: 20px;
+        margin: 0%;
+    }
+    
+    .hamburger {
+        display: none;
+        user-select: none;
+    }
+    
+    .checkbox_toggle {
+        float: right;
+        display: none;
+    }
+    
+    .checkbox_toggle:hover {
+        display: none;
+    }
+    
+    input[type=checkbox] {
+        display: none;
+    }
+    
+    .menu {
+        float: right;
+    }
+    
+    li {
+        float: right;
+        display: block;
+        text-decoration: none;
+    }
+    
+    li a {
+        color: white;
+        /*text-shadow: 5px 3px 3px 4px orange;*/
+        float: right;
+        font-family: cool;
+        padding: 10px 10px;
+        display: block;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    ul {
+        margin: 0;
+    }
+    
+    .action-call {
+        top: 10%;
+        position: relative;
+        height: 70%;
+        width: 50%;
+        line-break: .5em;
+        margin: .5em;
+        background-color: rgba(255, 68, 0, 0.233);
+    }
+    
+    p {
+        position: absolute;
+        font-family: con;
+        /*color: orangered;*/
+        color: white;
+        font-size: 1em;
+        margin-left: 5%;
+        line-height: 1.5em;
+        padding: .1em;
+    }
+    
+    button {
+        top: 40%;
+        color: black;
+        position: absolute;
+        /*background-color: rgba(255, 68, 0, 0.5);*/
+        background-color: orangered;
+        border: 1em;
+        padding: .8em;
+        border-radius: 4px;
+        border: 2px solid rgba(255, 68, 0, 0.233);
+        font-size: 1em;
+        font-family: cool;
+        right: 2em;
+        text-shadow: 3px 1px 5px rgb(121, 88, 28);
+        box-shadow: 2px 2px 8px 3px rgb(255, 60, 0);
+        z-index: 1;
+    }
+    
+    .logo {
+        grid-area: nav_loc;
+        font-family: neon2;
+        position: relative;
+        font-size: 50px;
+        color: orangered;
+        text-shadow: 1px 3px 1px 10px orangered;
+        animation-name: animation;
+        animation-duration: .5s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes animation {
+        0% {
+            text-shadow: 3px 3px 15px orangered;
+        }
+        20% {
+            text-shadow: 3px 3px 20px orangered;
+        }
+        30% {
+            text-shadow: 3px 3px 18px orangered;
+        }
+        40% {
+            text-shadow: 3px 3px 20px orangered;
+        }
+        60% {
+            text-shadow: 3px 3px 15px orangered;
+        }
+        80% {
+            text-shadow: 3px 3px 21px orangered;
+        }
+        100% {
+            text-shadow: 3px 3px 20px orangered;
+        }
+    }
+    
+    @media (min-width:730px) {}
+    
+    @media (min-width: 930px) {
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-image: url("tigran-hambardzumyan-ljh4yQb5EBE-unsplash.jpg");
+            background-size: cover;
+            background-position: left;
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-areas: "sign nav_loc";
+        }
+        .navbar {
+            grid-area: sign;
+            background-position: right;
+            display: grid;
+            font-size: 20px;
+            margin: 0%;
+        }
+        .hamburger {
+            display: none;
+            user-select: none;
+        }
+        .checkbox_toggle {
+            float: right;
+            display: none;
+        }
+        .checkbox_toggle:hover {
+            display: none;
+        }
+        input[type=checkbox] {
+            display: none;
+        }
+        .menu {
+            float: right;
+        }
+        li {
+            float: right;
+            display: block;
+            text-decoration: none;
+        }
+        li a {
+            color: white;
+            /*text-shadow: 5px 3px 3px 4px orange;*/
+            float: right;
+            font-family: cool;
+            padding: 10px 10px;
+            display: block;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        ul {
+            margin: 0;
+        }
+        .action-call {
+            position: relative;
+            height: 50%;
+            width: 50%;
+            line-break: 20px;
+            margin: 30px;
+            background-color: rgba(255, 68, 0, 0.233);
+            top: 150px;
+        }
+        p {
+            position: absolute;
+            font-family: con;
+            /*color: orangered;*/
+            color: white;
+            font-size: 20px;
+            margin-left: 5%;
+            line-height: 40px;
+            padding: 30px;
+        }
+        button {
+            color: black;
+            position: absolute;
+            /*background-color: rgba(255, 68, 0, 0.5);*/
+            background-color: orangered;
+            border: 4px;
+            padding: 5px;
+            border-radius: 4px;
+            border: 2px solid rgba(255, 68, 0, 0.233);
+            font-size: 50px;
+            font-family: cool;
+            text-shadow: 3px 1px 5px rgb(121, 88, 28);
+            top: 90%;
+            left: 5%;
+            box-shadow: 2px 2px 8px 3px rgb(255, 60, 0);
+            z-index: 1;
+        }
+        .logo {
+            grid-area: nav_loc;
+            font-family: neon2;
+            position: relative;
+            font-size: 50px;
+            color: orangered;
+            text-shadow: 1px 3px 1px 10px orangered;
+            animation-name: animation;
+            animation-duration: .5s;
+            animation-iteration-count: infinite;
+        }
+    }
