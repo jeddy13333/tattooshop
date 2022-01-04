@@ -3,7 +3,7 @@
     
     @font-face {
         font-family: cool;
-        src: url("sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf");
+        src: url(sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf);
     }
     
     @font-face {
@@ -13,12 +13,12 @@
     
     @font-face {
         font-family: neon2;
-        src: url("/neon-glow-font/NeonGlowBold-YxJv.ttf");
+        src: url(/neon-glow-font/NeonGlowBold-YxJv.ttf);
     }
     
     @font-face {
         font-family: con;
-        src: url("/ConformityPersonalUseRegular-1GMDg.ttf");
+        src: url(/ConformityPersonalUseRegular-1GMDg.ttf);
     }
     
     * {
