@@ -3,7 +3,7 @@
     
     @font-face {
         font-family: cool;
-        src: url(sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf);
+        src: url(SailorTattooHand-axPBo.ttf);
     }
     
     @font-face {
@@ -83,7 +83,7 @@
     }
     
     .about_bg {
-        background-image: url("/template/tattoo-4394609_1920.jpg");
+        background-image: url("tattoo-4394609_1920.jpg");
         position: relative;
         height: 100vh;
         width: 100vw;
