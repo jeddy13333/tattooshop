@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: cool;
-    src: url("/fonts/sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf");
+    src: url(/fonts/sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf);
 }
 
 @font-face {
@@ -15,12 +15,12 @@
 
 @font-face {
     font-family: neon2;
-    src: url("/fonts/neon-glow-font/NeonGlowBold-YxJv.ttf");
+    src: url(/fonts/neon-glow-font/NeonGlowBold-YxJv.ttf);
 }
 
 @font-face {
     font-family: con;
-    src: url("/fonts/ConformityPersonalUseRegular-1GMDg.ttf");
+    src: url(/fonts/ConformityPersonalUseRegular-1GMDg.ttf);
 }
 
 * {
@@ -96,7 +96,7 @@ li {
 
 .about_image {
     top: 10em;
-    background-image: url('/template/tattoo-4394609_1920.jpg');
+    background-image: url(/template/tattoo-4394609_1920.jpg);
     height: 25em;
     width: 100%;
     position: absolute;
@@ -430,7 +430,7 @@ input[type=submit] {
     background-size: cover;
     height: 20em;
     width: 100%;
-    background-image: url('/template/deejay-1440961_1280.png');
+    background-image: url(/template/deejay-1440961_1280.png);
 }
 
 .header {
@@ -612,7 +612,7 @@ input[type=submit] {
     .home_bg {
         height: 100vh;
         width: 100vw;
-        background-image: url("tigran-hambardzumyan-ljh4yQb5EBE-unsplash.jpg");
+        background-image: url(tigran-hambardzumyan-ljh4yQb5EBE-unsplash.jpg);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -659,7 +659,7 @@ input[type=submit] {
         height: 70%;
         width: 50%;
         top: 17%;
-        background-image: url("/template/tattoo-4394609_1920.jpg");
+        background-image: url(/template/tattoo-4394609_1920.jpg);
     }
     .about_bg h1 {
         top: 4em;
