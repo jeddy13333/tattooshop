@@ -1082,14 +1082,14 @@ input[type=submit] {
         padding-top: 18%;
         line-height: 2em;
         height: 50em;
-        width: 25em;
+        width: 50em;
         top: 5%;
         left: 10%;
         font-size: 2em;
         position: absolute;
         color: white;
         z-index: 2;
-        text-align: left;
+        text-align: center;
     }
     .gallery_bg {
         position: relative;
