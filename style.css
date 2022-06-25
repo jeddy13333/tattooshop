@@ -617,7 +617,8 @@ input[type=submit] {
         z-index: 1;
     }
     .home_bg p {
-        padding-right: 3em;
+        left: 60%;
+        padding-right: 1em;
         padding-top: 4em;
         font-size: 2em;
     }
