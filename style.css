@@ -108,7 +108,7 @@ li {
 }
 
 .about_bg h1 {
-    top: 2em;
+    top: 1em;
     font-family: con;
     position: absolute;
     font-size: 50px;
@@ -523,7 +523,7 @@ input[type=submit] {
 }
 
 @media (min-width:730px) {
-  * {
+    * {
         margin: 0%;
         padding: 0%;
     }
