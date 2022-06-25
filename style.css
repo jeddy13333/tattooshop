@@ -1023,8 +1023,7 @@ input[type=submit] {
         z-index: 1;
     }
     .home_bg p {
-        top: 1em;
-        left: 10%;
+        top: 10%;
         height: 10em;
         width: 20em;
         /*padding-right: 1em;*/
@@ -1035,7 +1034,7 @@ input[type=submit] {
     }
     .action-call {
         text-align: center;
-        position: absolute;
+        position: relative;
         width: 50%;
         line-break: 20px;
         margin: 5em;
