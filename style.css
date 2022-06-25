@@ -1079,12 +1079,12 @@ input[type=submit] {
         z-index: 2;
     }
     .about p {
-        padding-top: 18%;
+        /* padding-top: 18%;
         line-height: 2em;
         height: 50em;
         width: 50em;
         top: 5%;
-        left: 10%;
+        /*left: 10%;*/
         font-size: 2em;
         position: absolute;
         color: white;
