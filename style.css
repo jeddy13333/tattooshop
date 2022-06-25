@@ -1038,7 +1038,7 @@ input[type=submit] {
         z-index: 2;
     }
     button {
-        top: 75%;
+        /*top: 75%;*/
         color: black;
         position: absolute;
         /*background-color: rgba(255, 68, 0, 0.5);*/
@@ -1049,7 +1049,7 @@ input[type=submit] {
         border: 2px solid rgba(255, 68, 0, 0.233);
         font-size: 1em;
         font-family: con;
-        right: 17em;
+        /*right: 17em;*/
         text-shadow: 3px 1px 5px rgb(121, 88, 28);
         box-shadow: 2px 2px 8px 3px rgb(255, 60, 0);
         z-index: 1;
