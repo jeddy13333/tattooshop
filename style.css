@@ -1023,13 +1023,14 @@ input[type=submit] {
         z-index: 1;
     }
     .home_bg p {
-        left: 10%;
+        right: 10%;
         height: 10em;
         width: 20em;
         padding-right: 1em;
         padding-left: 1em;
         /*padding-top: 4em;*/
         font-size: 2em;
+        text-align: center;
     }
     .action-call {
         text-align: center;
