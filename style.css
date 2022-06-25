@@ -959,6 +959,7 @@ input[type=submit] {
         justify-content: space-between;
     }
     header {
+        height: 5em;
         position: fixed;
         width: 100%;
         display: block;
