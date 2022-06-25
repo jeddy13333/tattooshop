@@ -1079,8 +1079,8 @@ input[type=submit] {
         z-index: 2;
     }
     .about p {
-        /* padding-top: 18%;
-        line-height: 2em;
+        /* padding-top: 18%;*/
+        /*line-height: 2em;*/
         height: 50em;
         width: 50em;
         top: 5%;
