@@ -1025,7 +1025,7 @@ input[type=submit] {
     }
     .home_bg p {
         top: .1em;
-        position: absolute;
+        position: relative;
         left: .1em;
         height: 10em;
         width: 20em;
