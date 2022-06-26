@@ -1007,7 +1007,7 @@ input[type=submit] {
         padding: 1em;
     }
     .hamburger {
-        top: .5em;
+        top: .2em;
         float: right;
         display: block;
         padding-right: 3em;
