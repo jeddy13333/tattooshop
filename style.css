@@ -1006,11 +1006,10 @@ input[type=submit] {
         padding: 1em;
     }
     .hamburger {
-        top: 1em;
         float: right;
         display: block;
         padding-right: 3em;
-        font-size: 3em;
+        font-size: 2em;
         transition: .2s;
     }
     .home_bg {
