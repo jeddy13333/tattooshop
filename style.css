@@ -1023,6 +1023,7 @@ input[type=submit] {
         z-index: 1;
     }
     .home_bg p {
+        top: .1em;
         position: absolute;
         left: .1em;
         height: 10em;
